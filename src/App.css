@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  background-color: #1b1b1b; /* Fundo escuro para o tema de jogos */
+  color: #ffffff; /* Cor do texto padrão */
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.section-title {
+  color: #61dafb; /* Cor azul para títulos das seções */
+  margin-bottom: 20px;
+  font-size: 2rem; /* Tamanho do texto */
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.project-card {
+  background-color: #f8f9fa; /* Fundo claro, quase branco */
+  border: none;
+  transition: transform 0.3s;
+}
+
+
+.project-card:hover {
+  transform: scale(1.05); /* Aumentar o card ao passar o mouse */
+}
+
+.project-link {
+  color: #61dafb; /* Cor do link */
+  font-weight: bold; /* Negrito para o link */
+}
+
+.social-icon {
+  color: #61dafb; /* Cor dos ícones sociais */
+  font-size: 1.5rem; /* Tamanho do ícone */
+  margin: 0 10px; /* Espaço entre os ícones */
+  transition: color 0.3s; /* Efeito ao passar o mouse */
+}
+
+.social-icon:hover {
+  color: #ffffff; /* Cor ao passar o mouse */
+}
