@@ -2,7 +2,7 @@
   "name": "myhp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yanvs.github.io",
+  "homepage": "https://yansteinhaus.github.io/yanvs",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
